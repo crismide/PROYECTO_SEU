@@ -56,7 +56,7 @@ static void MX_USART2_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 int pulsation_count_b1(){
-
+  //COMO CUENTO LOS FLANCOS DE BAJADA?
 }
 
 int pulsation_count_b2(){
@@ -107,7 +107,7 @@ int main(void)
     pulsations_b1 = pulsation_count_b1(pulsations_b1);
     check_threshold(pulsations_b1);
     set_lights(pulsations_b1);
-    check_alarm();
+    check_alarm(pulsations_b1);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
