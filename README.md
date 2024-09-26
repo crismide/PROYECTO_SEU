@@ -1,2 +1,2 @@
-# PROYECTO_SEU
- Este es el proyecto con un microcontrolador de la asignatura de MUIINF de SEU
+# MICROCONTROLLER PROYECT
+In this project we used a custom microcontroller and did several functions with it
